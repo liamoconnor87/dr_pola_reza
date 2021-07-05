@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  border:0;
+  box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+	background: url("https://www.dropbox.com/s/j3pqrkoe6q1jjf2/slatebg.jpg?raw=1") no-repeat center center fixed;
+	background-size: cover;
+    height: 100vh;
+    color: rgb(7,33,48);
+}
+
+header{
+	width: 100%;
+	height: auto;
+}
+
+.logo-container{
+	display: flex;
+	width: inherit;
+}
+
+.logo{
+	max-width: 300px;
+	height: auto;
+	margin: 50px auto 0 auto;
+}
+
+/*
+.titles-container{
+	display: flex;
+	margin: 20px auto 0 auto;
+	width: 70%;
+}
+
+.title{
+	flex: 50%;
+	text-align: center;
+}
+
+.title h2{
+	font-weight: 600;
+}
+*/
+
+.contact-info-container{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 900px;
+	margin: 150px auto 0 auto;
+	padding: 0 30px;
+}
+
+/*
+.contact-info-title{
+	width: 100%;
+	text-align: center;
+}
+*/
+
+.contact-info{
+	width: inherit;
+}
+
+.contact-info h3{
+	font-size: 35px;
+}
+
+.contact-info p{
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.contact-info a{
+	color: rgb(7,33,48);
+}
+
+.contact-info{
+	margin-bottom: 80px;
+}
+
+.btm-brdr{
+	border-bottom: solid 2px rgb(7,33,48);
+}
+
+footer{
+	position: relative;
+	bottom: 0;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social-networks{
+	margin: 0 auto;
+	font-size: 150px;
+}
+
+.social-networks a, p a{
+	text-decoration: none;
+	color: rgb(7,33,48);
+}
